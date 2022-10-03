@@ -29,3 +29,4 @@ http://localhost:3000/api/v1/stock?stockSymbol=IBM&date=2014-09-30&currencyCode=
 _Note: To get current currency rate, it was possible only with paid tier. So the closest I could use was "Previous close (https://polygon.io/docs/forex/get_v2_aggs_ticker__forexticker__prev)" - the close price for the symbol in the given time period_
 
 Used npm packages: Exporess, Axios, dotenv, nodemon
+Terminal comand: npm run dev
