@@ -1,13 +1,13 @@
 const config = require("../config");
 const axios = require("axios");
 
-const axiosOptions = {};
-
 const stockData = async (req, res) => {
+  // Gets stocks data from https://www.alphavantage.co/
   let stockApiResponse = await axios.get(
-    config.stockUrl(req.query.stockSymbol, req.query.date)
+    config.stockUrl(req.query.stockSymbol, req.query.date, req.query.outputsize)
   );
 
+  // Gets currency data from https://polygon.io/
   let currencyApiResponse = await axios.get(
     config.currencyUrl(req.query.currencyCode)
   );
