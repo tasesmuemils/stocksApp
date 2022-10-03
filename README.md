@@ -15,7 +15,7 @@ http://localhost:3000/api/v1/stock?stockSymbol=STOCK_SYMBOL&date=DATE&currencyCo
 
 - DATE - date (Examples: 2022-09-30)
 
-  **NOTE: Date has to be work day, stock market is not working un the weekend**
+  **NOTE: Date has to be work day, stock market is not working on the weekend**
 
 - CURRENCY_CODE - currency code (Examples: EUR, CAD, RUB)
 
